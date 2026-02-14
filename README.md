@@ -38,7 +38,7 @@ Der sysWORXX Pi-AM62x unterstützt u.a. folgende Programmiersprachen:
 
 Der *IO Simulator HAT* basiert auf einer vierlagigen Leiterplatte im typischen Raspberry Pi HAT Format (64x56 mm). Die Platine ist einseitig bestückt und verwendet nur sehr einfach zu lötende THT Bauteile (Through Hole Technology). Der *IO Simulator HAT* kann somit leicht auch von Schülern und Bastlern mit etwas Löterfahrung aufgebaut werden.
 
-Die Werte aller Bauteile sind im [Schaltplan](Documentation/sysWORXX_Pi_Hat-IO_Simulator_PCB.sch.pdf) spezifiziert.
+Die Werte aller Bauteile sind im [Schaltplan](Documentation/sysWORXX_Pi_Hat-IO_Simulator_PCB_Schematic.pdf) spezifiziert.
 
 ![\[sysWORXX IO Simulator\]](Documentation/sysWORXX_Pi_Hat-IO_Simulator_PCB.png)
 
@@ -90,7 +90,7 @@ Der Node-RED Flow [IO-HAT_Periphery.json](Node-RED_Flow/IO-HAT_Periphery.json) i
 
 Nach dem Deploy auf den *sysWORXX Pi-AM62x* wird der Flow auf dem Gerät ausgeführt und das Node-RED Dashboard visualisiert die aktuellen Werte der IO-Peripherie.
 
-![\[Node-RED Dashboard\]](Node-RED_Dashboard.png)
+![\[Node-RED Dashboard\]]((Documentation/Node-RED_Dashboard.png)
 
 ## Verwendete Komponenten von Drittanbietern
 

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name sysWORXX_Pi)(type Legacy)(uri ${KIPRJMOD}/Library/sysWORXX_Pi/sysWORXX_Pi.lib)(options "")(descr ""))
+  (lib (name MCP3202)(type Legacy)(uri ${KIPRJMOD}/Library/MCP3202/MCP3202.lib)(options "")(descr ""))
+  (lib (name sysWORXX_Pi_Hat-IO_Simulator_PCB-rescue)(type Legacy)(uri ${KIPRJMOD}/sysWORXX_Pi_Hat-IO_Simulator_PCB-rescue.lib)(options "")(descr ""))
+)

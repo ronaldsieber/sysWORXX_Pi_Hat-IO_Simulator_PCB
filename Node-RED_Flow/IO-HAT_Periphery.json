@@ -1,0 +1,1103 @@
+[
+    {
+        "id": "c9197213.ff4b1",
+        "type": "tab",
+        "label": "sysWORXX Pi Digital In/Out",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ba490f63.7b55d8",
+        "type": "tab",
+        "label": "sysWORXX Pi Analog In",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "14f312bf7a1c6ad9",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD.MM.YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "0979bcf63c95b210",
+        "type": "ui_group",
+        "name": "Standard",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "136120e1.087d9f",
+        "type": "ui_tab",
+        "name": "sysWORXX PI IO Periphery",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "de664321.5be7f8",
+        "type": "ui_group",
+        "name": "Analog Channels",
+        "tab": "136120e1.087d9f",
+        "order": 2,
+        "disp": true,
+        "width": "16",
+        "collapse": false
+    },
+    {
+        "id": "9aa73ddc.99b87",
+        "type": "ui_group",
+        "name": "Digital Channels",
+        "tab": "136120e1.087d9f",
+        "order": 1,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "57f379d2b89f72c7",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "3a1768d81d805a94",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "9aa73ddc.99b87",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "991bc1b53058863b",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "9aa73ddc.99b87",
+        "order": 4,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "63ec0a16f0887dbe",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "9aa73ddc.99b87",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3680d5304d09fa0f",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "9aa73ddc.99b87",
+        "order": 8,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "8860e617a4f56c49",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "9aa73ddc.99b87",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "794c2341122ebf0c",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "9aa73ddc.99b87",
+        "order": 12,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "80a3834b88f1ef65",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "9aa73ddc.99b87",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "06d4b842ed790cf0",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "9aa73ddc.99b87",
+        "order": 16,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "8c15e02b305eb960",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "9aa73ddc.99b87",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0e1eb55b9565ae20",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "9aa73ddc.99b87",
+        "order": 20,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "5228a8423cf9a080",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "9aa73ddc.99b87",
+        "order": 22,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "49d5dc4230c41630",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "9aa73ddc.99b87",
+        "order": 24,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "50d2200a357b1bee",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "de664321.5be7f8",
+        "order": 3,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "cbe9540236db3e82",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "de664321.5be7f8",
+        "order": 4,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "b69663597de8ab96",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "de664321.5be7f8",
+        "order": 5,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "9ce96bd554dce201",
+        "type": "ui_spacer",
+        "z": "c9197213.ff4b1",
+        "name": "spacer",
+        "group": "de664321.5be7f8",
+        "order": 6,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "38e34549.6b28fa",
+        "type": "ui_switch",
+        "z": "c9197213.ff4b1",
+        "name": "Btn DI1",
+        "label": "Btn DI1",
+        "tooltip": "",
+        "group": "9aa73ddc.99b87",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "/di/1",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 380,
+        "y": 240,
+        "wires": [
+            [
+                "b2fc3cf6b1495c61",
+                "83a31312fcfb9d9a"
+            ]
+        ]
+    },
+    {
+        "id": "d8a8c1d8.530cd8",
+        "type": "ui_switch",
+        "z": "c9197213.ff4b1",
+        "name": "Btn DI0",
+        "label": "Btn DI0",
+        "tooltip": "",
+        "group": "9aa73ddc.99b87",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "/di/0",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 380,
+        "y": 100,
+        "wires": [
+            [
+                "c12c180df5a88a90",
+                "ffd56f0abd519162"
+            ]
+        ]
+    },
+    {
+        "id": "3813c6de.fb50a2",
+        "type": "ui_switch",
+        "z": "c9197213.ff4b1",
+        "name": "Btn DI2",
+        "label": "Btn DI2",
+        "tooltip": "",
+        "group": "9aa73ddc.99b87",
+        "order": 9,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "/di/2",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 380,
+        "y": 380,
+        "wires": [
+            [
+                "f158d4d2afd2a03c",
+                "5a45d719956ac545"
+            ]
+        ]
+    },
+    {
+        "id": "82451f8d.b9d718",
+        "type": "ui_switch",
+        "z": "c9197213.ff4b1",
+        "name": "Btn DI3",
+        "label": "Btn DI3",
+        "tooltip": "",
+        "group": "9aa73ddc.99b87",
+        "order": 13,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "/di/3",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 380,
+        "y": 520,
+        "wires": [
+            [
+                "a17d9129001e210f",
+                "a6aa0edb8d32bb66"
+            ]
+        ]
+    },
+    {
+        "id": "af2122ef0a66b574",
+        "type": "Digital In",
+        "z": "c9197213.ff4b1",
+        "name": "Btn DI0",
+        "channel": "0",
+        "typeHigh": "num",
+        "typeLow": "num",
+        "dataHigh": 1,
+        "dataLow": 0,
+        "savedInput": "0",
+        "optAltTopic": false,
+        "topic": "sysworxx/di/0",
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "d8a8c1d8.530cd8"
+            ]
+        ]
+    },
+    {
+        "id": "288df949bebb0105",
+        "type": "Digital In",
+        "z": "c9197213.ff4b1",
+        "name": "Btn DI1",
+        "channel": "1",
+        "typeHigh": "num",
+        "typeLow": "num",
+        "dataHigh": 1,
+        "dataLow": 0,
+        "savedInput": "1",
+        "optAltTopic": false,
+        "topic": "sysworxx/di/1",
+        "x": 130,
+        "y": 240,
+        "wires": [
+            [
+                "38e34549.6b28fa"
+            ]
+        ]
+    },
+    {
+        "id": "abc65b7fa695fbd7",
+        "type": "Digital In",
+        "z": "c9197213.ff4b1",
+        "name": "Btn DI2",
+        "channel": "2",
+        "typeHigh": "num",
+        "typeLow": "num",
+        "dataHigh": 1,
+        "dataLow": 0,
+        "savedInput": "2",
+        "optAltTopic": false,
+        "topic": "sysworxx/di/2",
+        "x": 130,
+        "y": 380,
+        "wires": [
+            [
+                "3813c6de.fb50a2"
+            ]
+        ]
+    },
+    {
+        "id": "62cf6e6afd6751b4",
+        "type": "Digital In",
+        "z": "c9197213.ff4b1",
+        "name": "Btn DI3",
+        "channel": "3",
+        "typeHigh": "num",
+        "typeLow": "num",
+        "dataHigh": 1,
+        "dataLow": 0,
+        "savedInput": "3",
+        "optAltTopic": false,
+        "topic": "sysworxx/di/3",
+        "x": 130,
+        "y": 520,
+        "wires": [
+            [
+                "82451f8d.b9d718"
+            ]
+        ]
+    },
+    {
+        "id": "c12c180df5a88a90",
+        "type": "Digital Out",
+        "z": "c9197213.ff4b1",
+        "name": "DO0",
+        "channel": "0",
+        "initialState": "initStateInactive",
+        "typeHigh": "num",
+        "typeLow": "num",
+        "dataHigh": 1,
+        "dataLow": 0,
+        "savedOuput": "0",
+        "optAltTopic": false,
+        "topic": "#",
+        "x": 610,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "b2fc3cf6b1495c61",
+        "type": "Digital Out",
+        "z": "c9197213.ff4b1",
+        "name": "DO1",
+        "channel": "1",
+        "initialState": "initStateInactive",
+        "typeHigh": "num",
+        "typeLow": "num",
+        "dataHigh": 1,
+        "dataLow": 0,
+        "savedOuput": "1",
+        "optAltTopic": false,
+        "topic": "#",
+        "x": 610,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "f158d4d2afd2a03c",
+        "type": "Digital Out",
+        "z": "c9197213.ff4b1",
+        "name": "DO2",
+        "channel": "2",
+        "initialState": "initStateInactive",
+        "typeHigh": "num",
+        "typeLow": "num",
+        "dataHigh": 1,
+        "dataLow": 0,
+        "savedOuput": "2",
+        "optAltTopic": false,
+        "topic": "#",
+        "x": 610,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "a17d9129001e210f",
+        "type": "Digital Out",
+        "z": "c9197213.ff4b1",
+        "name": "DO3",
+        "channel": "3",
+        "initialState": "initStateInactive",
+        "typeHigh": "num",
+        "typeLow": "num",
+        "dataHigh": 1,
+        "dataLow": 0,
+        "savedOuput": "3",
+        "optAltTopic": false,
+        "topic": "#",
+        "x": 610,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "83a31312fcfb9d9a",
+        "type": "ui_led",
+        "z": "c9197213.ff4b1",
+        "order": 7,
+        "group": "9aa73ddc.99b87",
+        "width": 3,
+        "height": 1,
+        "label": "DO1",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#c0c0c0",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#008000",
+                "value": "1",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED DO1",
+        "x": 620,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "ffd56f0abd519162",
+        "type": "ui_led",
+        "z": "c9197213.ff4b1",
+        "order": 3,
+        "group": "9aa73ddc.99b87",
+        "width": 3,
+        "height": 1,
+        "label": "DO0",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#c0c0c0",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#ff0000",
+                "value": "1",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED DO0",
+        "x": 620,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "5a45d719956ac545",
+        "type": "ui_led",
+        "z": "c9197213.ff4b1",
+        "order": 11,
+        "group": "9aa73ddc.99b87",
+        "width": 3,
+        "height": 1,
+        "label": "DO2",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#c0c0c0",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#ffff00",
+                "value": "1",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED DO2",
+        "x": 620,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "a6aa0edb8d32bb66",
+        "type": "ui_led",
+        "z": "c9197213.ff4b1",
+        "order": 15,
+        "group": "9aa73ddc.99b87",
+        "width": 3,
+        "height": 1,
+        "label": "DO3",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#c0c0c0",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#0000ff",
+                "value": "1",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED DO3",
+        "x": 620,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "9b80e2c907e41fee",
+        "type": "ui_switch",
+        "z": "c9197213.ff4b1",
+        "name": "DIP DI4",
+        "label": "DIP DI4",
+        "tooltip": "",
+        "group": "9aa73ddc.99b87",
+        "order": 17,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "/di/4",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 380,
+        "y": 660,
+        "wires": [
+            [
+                "9aa75f7fbd07aff4"
+            ]
+        ]
+    },
+    {
+        "id": "6cb7ee7c6a7fda31",
+        "type": "Digital In",
+        "z": "c9197213.ff4b1",
+        "name": "DIP DI4",
+        "channel": "4",
+        "typeHigh": "num",
+        "typeLow": "num",
+        "dataHigh": 1,
+        "dataLow": 0,
+        "savedInput": "4",
+        "optAltTopic": false,
+        "topic": "sysworxx/di/4",
+        "x": 130,
+        "y": 660,
+        "wires": [
+            [
+                "9b80e2c907e41fee"
+            ]
+        ]
+    },
+    {
+        "id": "9aa75f7fbd07aff4",
+        "type": "ui_led",
+        "z": "c9197213.ff4b1",
+        "order": 19,
+        "group": "9aa73ddc.99b87",
+        "width": 3,
+        "height": 1,
+        "label": "[DIP DI4]",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#c0c0c0",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#00ffff",
+                "value": "1",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "DIP DI4",
+        "x": 620,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "035eedf9e809147a",
+        "type": "ui_switch",
+        "z": "c9197213.ff4b1",
+        "name": "DIP DI5",
+        "label": "DIP DI5",
+        "tooltip": "",
+        "group": "9aa73ddc.99b87",
+        "order": 21,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "/di/5",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 380,
+        "y": 800,
+        "wires": [
+            [
+                "e627ee3a00a1c4dc"
+            ]
+        ]
+    },
+    {
+        "id": "afb7ab9378b0072a",
+        "type": "Digital In",
+        "z": "c9197213.ff4b1",
+        "name": "DIP DI5",
+        "channel": "5",
+        "typeHigh": "num",
+        "typeLow": "num",
+        "dataHigh": 1,
+        "dataLow": 0,
+        "savedInput": "5",
+        "optAltTopic": false,
+        "topic": "sysworxx/di/5",
+        "x": 130,
+        "y": 800,
+        "wires": [
+            [
+                "035eedf9e809147a"
+            ]
+        ]
+    },
+    {
+        "id": "e627ee3a00a1c4dc",
+        "type": "ui_led",
+        "z": "c9197213.ff4b1",
+        "order": 23,
+        "group": "9aa73ddc.99b87",
+        "width": 3,
+        "height": 1,
+        "label": "[DIP DI5]",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#c0c0c0",
+                "value": "0",
+                "valueType": "num"
+            },
+            {
+                "color": "#00ffff",
+                "value": "1",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "DIP DI5",
+        "x": 620,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "14dc9e4.cba54e2",
+        "type": "debug",
+        "z": "ba490f63.7b55d8",
+        "name": "AI0",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "24200d0b.ba4712",
+        "type": "debug",
+        "z": "ba490f63.7b55d8",
+        "name": "AI1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "49af7e77.0a0718",
+        "type": "ui_gauge",
+        "z": "ba490f63.7b55d8",
+        "name": "AI0",
+        "group": "de664321.5be7f8",
+        "order": 1,
+        "width": 4,
+        "height": 4,
+        "gtype": "gage",
+        "title": "AI0",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4095",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 650,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "97911fdf.374068",
+        "type": "ui_gauge",
+        "z": "ba490f63.7b55d8",
+        "name": "AI1",
+        "group": "de664321.5be7f8",
+        "order": 2,
+        "width": 4,
+        "height": 4,
+        "gtype": "gage",
+        "title": "AI1",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "4095",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 650,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "09a2033942d87482",
+        "type": "inject",
+        "z": "ba490f63.7b55d8",
+        "name": "ADC Read Clock",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 100,
+        "wires": [
+            [
+                "9c6f5b225aa7e225",
+                "846f4bee4a171890"
+            ]
+        ]
+    },
+    {
+        "id": "9c6f5b225aa7e225",
+        "type": "file in",
+        "z": "ba490f63.7b55d8",
+        "name": "Read Value AI0",
+        "filename": "/sys/bus/iio/devices/iio:device0/in_voltage0_raw",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 400,
+        "y": 100,
+        "wires": [
+            [
+                "49af7e77.0a0718",
+                "14dc9e4.cba54e2"
+            ]
+        ]
+    },
+    {
+        "id": "1cb4611ace100fe9",
+        "type": "file in",
+        "z": "ba490f63.7b55d8",
+        "name": "Read Value AI1",
+        "filename": "/sys/bus/iio/devices/iio:device0/in_voltage1_raw",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 400,
+        "y": 220,
+        "wires": [
+            [
+                "97911fdf.374068",
+                "24200d0b.ba4712"
+            ]
+        ]
+    },
+    {
+        "id": "846f4bee4a171890",
+        "type": "delay",
+        "z": "ba490f63.7b55d8",
+        "name": "Channel Delay",
+        "pauseType": "delay",
+        "timeout": "250",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 180,
+        "y": 220,
+        "wires": [
+            [
+                "1cb4611ace100fe9"
+            ]
+        ]
+    }
+]

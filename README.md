@@ -90,7 +90,7 @@ Der Node-RED Flow [IO-HAT_Periphery.json](Node-RED_Flow/IO-HAT_Periphery.json) i
 
 Nach dem Deploy auf den *sysWORXX Pi-AM62x* wird der Flow auf dem Gerät ausgeführt und das Node-RED Dashboard visualisiert die aktuellen Werte der IO-Peripherie.
 
-![\[Node-RED Inbetriebnahme Flow - Analog In\]](Documentation/Node-RED_Dashboard.png)
+![\[Node-RED Dashboard\]](Documentation/Node-RED_Dashboard.png)
 
 ## Verwendete Komponenten von Drittanbietern
 
